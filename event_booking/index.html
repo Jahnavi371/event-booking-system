@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Event Booking</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #1e4b85, #f0c1c9);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin-bottom: 30px;
+        }
+        .btn-container {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn {
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            color: rgb(9, 9, 10);
+            background-color: #458acb;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #71a8ef;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Event Booking</h1>
+        <p>Your one-stop solution for booking and managing events effortlessly.</p>
+        <div class="btn-container">
+            <a href="login.php" class="btn">Login</a>
+            <a href="register.php" class="btn">Register</a>
+            <a href="events.php" class="btn">View Events</a>
+            <a href="logout.php" class="btn">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
